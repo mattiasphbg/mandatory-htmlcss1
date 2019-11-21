@@ -7,17 +7,41 @@
     
       <style>
       
-      .button
+
+      html body
       {
+
+       background-color: lightblue;
+       color: #fff;
+       font-size: 24px;
+      }
+
+
+       #flex
+      {
+
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: rgba(0, 0, 25, 0.2);
+        font-size: 30px;
+        justify-content: space-between;
         
-        float: left;
-        font-size: 15px;
-        
-        cursor: pointer;
-        border-radius: 25px 25px 25px 25px;
+        border: 25px solid skyblue;
+      }
+
+      .buttons
+      {
+
+        display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 20px 70px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
 
       }
-      
       
       </style>
     </head>
@@ -26,10 +50,13 @@
    <header>
       <h2> Välj ditt alternativ</h2>
       <nav>  
-          <a href="about.html"><button class="button">About</button></a>
-          <a href="contact.html"><button class="button">contact</button></a>
-          <a href="links.html"><button class="button">link</button></a>
-          <a href="movies.html"><button class="button">Movie</button></a><br><br><br><br>
+          <div id="flex">
+              <div class="buttons">About</div>
+              <div class="buttons">contact</div>
+              <div class="buttons">Link</div>
+              <div class="buttons">Movies</div>
+              <div class="buttons">Homepage</div>
+          </div>
       </nav>    
    </header>
   
