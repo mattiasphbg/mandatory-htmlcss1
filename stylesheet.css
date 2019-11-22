@@ -7,15 +7,20 @@
        font-size: 24px;
        width: 100%;
        
-
       }
-
       body
       {
 
         margin: 0;
         text-align: center;
         
+      }
+
+      header
+      {
+   
+        background-color: black;
+   
       }
 
        #logo
@@ -25,7 +30,26 @@
         
 
       }
+     
+      a:link
+      {
+        color: #fff;
+      }
+      a:visited
+      {
+        color: black;
 
+      }
+      a:hover
+      {
+         color: #fff;
+      }
+      a:active
+      {
+        color: pink;
+        font-size: 30px;
+      }
+      
 
        #flex
       {
@@ -50,14 +74,6 @@
     padding: 20px 70px;
     font-size: 24px;
     border: 1px solid #2d6898;
-
-   }
-
-
-   header
-   {
-
-     background-color: black;
 
    }
 
